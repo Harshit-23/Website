@@ -6,7 +6,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <title>Harshit's Portfolio</title>
 </head>
@@ -18,7 +20,7 @@
             <div class="right">
                 <ul>
                     <li><a href="./index.html">Home</a></li>
-                    <li><a href="#skill-section">Projects</a></li>
+                    <li><a href="#project-section">Projects</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="mailto:harshitagrawalnp@gmail.com">Contact Me</a></li>
                 </ul>
@@ -50,16 +52,16 @@
                 <h1 class="skill-h1">My Skills & Interests</h1>
       
                 <div class="skill-row">
-                    <div class="skill-img1 skill-child"><img src="./Images/designanddev2.png" alt="" width="180px"></div>
+                    <div class="skill-img1 skill-child"><img src="./Images/design.png" alt="" width="180px"></div>
                     <div class="skill-txt skill-child">
                         <h3 class="skill-h3">Design &amp; Development</h3>
                         <p>I started learning to design and develop websites recently, and I am still learning how to design the backend of websites using Express.js, 
-                            JavaScript, etc. However, I do enjoy designing the fromt-end of websites too!
+                            JavaScript, etc. However, I do enjoy designing the front-end of websites too!
                         </p>
                     </div>
                 </div>
       
-                <div class="skill-row">  
+                <div class="skill-row coding-skill">  
                     <div class="skill-txt skill-child">
                         <h3 class="skill-h3">Coding</h3>
                         <p>I started learning to code when I was 12 years old because I wanted to develop my own video games. Over time, I have gained a wealth 
@@ -69,7 +71,7 @@
                 </div>
 
                 <div class="skill-row">
-                    <div class="skill-img skill-child"><img src="./Images/gaming2.png" alt="" width="180px"></div>
+                    <div class="skill-img skill-child"><img src="./Images/gaming.png" alt="" width="180px"></div>
                     <div class="skill-txt skill-child">
                         <h3 class="skill-h3">Gaming</h3>
                         <p> Apart from tech, I am also really fond of games and I'm quite skilled at it too. I am always down to try new games but I specifically prefer shooter games, with Call of Duty : Mobile being my favourite.</p>
@@ -78,6 +80,101 @@
                 
                 
               </div>
+        </section>
+
+        <hr>
+
+        <section class="thirdSection" id="project-section">
+            <h1 class="skill-h1">My Projects</h1>
+            <br>
+            <p class="project-desc"> Here are some of the projects that I have worked on. <br> These include the projects that I have made from the Web Development Course.</p>
+            <div class="projectContainer">
+
+                <div class="project-item">
+                    <div>
+                        <img class="project-img" src="./Images/flower2.svg" alt="">
+                        <h3>Skinvana</h3>
+                        <p>A website that suggests customized skin care products to users based on a small survey 
+                            about their skin issues. Users are also given an appointment with top-rated Dermato- logists.
+                            Based on a DBMS concept, the website which is still under development, is ready to view as a static website.                        
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <button class="project-visit" onclick = "location.href = 'https://harshit-23.github.io/Skinvana/' "> Visit Site </button>
+                    </div>
+                </div>
+                
+                <div class="project-item">
+                    <div>
+                        <img class="project-img" src="./Images/person-fill.svg" alt="">
+                        <h3>Portfolio</h3>
+                        <p>Do you wish to get to know more about me and my work? I got you! My portfolio website tells you everything 
+                            that you need to know about me and my ongoing projects. You may also contact me via the website. The website 
+                            is very minimal and I have used only HTML, CSS and JavaScript to create it!
+                        </p>
+                    </div>
+                    <div>
+                        <button class="project-visit" onclick = "location.href = 'https://harshit-23.github.io/Website/' ">Visit Site</button>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div>
+                        <img class="project-img" src="./Images/drum-set-drum-svgrepo-com.svg" alt="">
+                        <h3>Basic Drum-Kit</h3>
+                        <p>Playing Drums can be fun. Go ahead and try this digital one made by me as a part of my course! You can 
+                            either click or press the corresponding keyboard keys to play the drum. This simple website uses 
+                            Javascript to add event and key listeners to different buttons and play sounds.
+                        </p>
+                    </div>
+                    <div>
+                        <button class="project-visit" onclick = "location.href = 'https://harshit-23.github.io/Drum-kit/' "> Visit Site </button>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div>
+                        <img class="project-img" src="./Images/chat-heart-fill.svg" alt="">
+                        <h3>Tindog</h3>
+                        <p> A tinder website for Dogs. Yes, you heard that right! Your dog shall never feel lonely and 
+                            always have company because we got your dog's back. Woof woof! This is a static website inspired by tinder
+                            and has made great use of Bootstrap-5 components to make the website look modern. 
+                        </p>
+                    </div>
+                    <div>
+                        <button class="project-visit" onclick = "location.href = 'https://harshit-23.github.io/TinDog/' "> Visit Site </button>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div>
+                        <img class="project-img" src="./Images/controller.svg" alt="">
+                        <h3>Simon Game</h3>
+                        <p>Do you want to test how much your brain can retain? You should definitely try this mini-game! 
+                            In this game you have to remember the patterns made by the computer and verify the pattern from the beginning
+                            with a new click every level! This website uses basic concepts of JavaScript.
+                        </p>
+                    </div>
+                    <div>
+                        <button class="project-visit" onclick = "location.href = 'https://harshit-23.github.io/Simon-Game/' "> Visit Site </button>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div>
+                        <img class="project-img" src="./Images/file-earmark-person.svg" alt="">
+                        <h3>First CV</h3>
+                        <p>A very basic CV made naively. This was the first portfolio/CV that I made during my course. The website only uses 
+                             HTML and CSS. However, it looks very modern, clean and minimal with an eye-catching color palette.
+                        </p>
+                    </div>
+                    <div>
+                        <button class="project-visit" onclick = "location.href = 'https://harshit-23.github.io/FirstCV/' "> Visit Site </button>
+                    </div>
+                </div>
+
+            </div>
         </section>
 
         <hr>
