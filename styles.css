@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -66,6 +67,7 @@ nav ul li a:hover{
     color: white;
     border-radius: 8px;
     cursor: pointer;
+    margin: 50px 0;
 }
 
 .leftSection > #download-button:hover{
@@ -111,13 +113,12 @@ hr{
     text-align: center;
     font-size: 3rem;
     margin-bottom: 10px;
-    
+    font-family: 'Montserrat', sans-serif;
 }
 
 .skill-row{
     text-align: left;
     flex-basis: 100%;
-
     display: flex;
 }
 
@@ -128,7 +129,9 @@ hr{
 
 .skill-img, .skill-img1{
     margin: 10px;
+    text-align: center;
 }
+
 .skill-txt{
     align-items: left;
     display: flex;
@@ -136,12 +139,6 @@ hr{
     text-align: left;
     justify-content: center;
 }
-
-.skill-img1{
-    background-color: white;
-    border-radius: 50%;
-}
-
 
 .footer{
     background-color: #1a5a73;
@@ -169,4 +166,139 @@ hr{
 
 .footer-top li a:hover{
     color: #032735;
+}
+
+.thirdSection{
+    margin: 50px 0;
+}
+
+.projectContainer{
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-img{
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 30%;
+}
+
+.project-item{
+    flex-basis: 30%;
+    background-color: #1a5a73;
+    margin: 10px 0;
+    padding: 20px 5px;
+    box-shadow: 0px 0px 8px 1px #266e8a;
+    text-align: center;
+    border-radius: 5%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-item:hover{
+    box-shadow: 0px 0px 10px 1px #3d9cc1;
+}
+
+.project-item h3{
+    color: black;
+    padding: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.project-item p{
+    font-size: 14px;
+    text-align: left;
+}
+
+.project-visit{
+    margin-top: 20px;
+    padding: 8px 10px;
+    font-size: 14px;
+    background-color: #094c67;
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.project-visit:hover{
+    background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%);
+    /* color: black; */
+}
+
+.project-desc{
+    text-align: center;
+    margin: 5px 10px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 770px){
+    nav{
+        flex-direction: column;
+        height: 80px;
+        padding: 10px;
+    }
+
+    nav ul li{
+        margin: 5px 8px;
+    }
+
+    .firstSection{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin: 30px 5px;
+    }
+    
+    .firstSection > div{
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    
+    .leftSection{
+        font-size: 2rem;
+    }
+
+    .rightSection img{
+        width: 95%;
+        text-align: center;
+    }
+
+    .skills{
+        width: 90%;
+        flex-basis: 80%;
+        margin: 50px 5px;
+    }
+
+    
+    hr{
+        margin: 0 40px;
+    }
+
+    .skill-h1{
+        font-size: 2.5rem;
+    }
+
+    .skill-row{
+        flex-direction: column;
+    }
+
+    .coding-skill{
+        flex-direction: column-reverse;
+    }
+
+    .projectContainer{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .project-item{
+        margin: 10px;
+    }
 }
