@@ -231,7 +231,6 @@ hr{
 
 .project-visit:hover{
     background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%);
-    /* color: black; */
 }
 
 .project-desc{
@@ -265,9 +264,12 @@ hr{
         font-size: 2rem;
     }
 
-    .rightSection img{
-        width: 95%;
+    .rightSection{
         text-align: center;
+    }
+
+    .rightSection img{
+        width: 70%;
     }
 
     .skills{
