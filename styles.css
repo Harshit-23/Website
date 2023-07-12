@@ -295,6 +295,11 @@ hr{
         flex-direction: column-reverse;
     }
 
+    .footer-top li{
+        list-style: none;
+        margin: 0 0.6rem;
+    }
+
     .projectContainer{
         width: 100%;
         flex-direction: column;
