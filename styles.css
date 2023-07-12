@@ -288,11 +288,11 @@ hr{
     }
 
     .skill-row{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .coding-skill{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .footer-top li{
